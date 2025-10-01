@@ -246,7 +246,7 @@ Maica Etnike
           
           <hr style="margin: 30px 0;">
           <p style="color: #999; font-size: 12px; text-align: center;">
-            Maica Etnike - www.maicaetnike.com
+            Maica Etnike - www.maicaetnike.shop
           </p>
         </div>
       `,
