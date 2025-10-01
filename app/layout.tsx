@@ -11,7 +11,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
     title: "Maica Etnike",
-    description: "Hijesho Shtëpinë: Shfleto koleksionin tonë të dekoreve unike të punuara me dorë",
+    description: "Simbolet tona nuk janë thjesht dizajn - janë një mesazh i prerë për botën se ne nuk harrojmë dhe nuk falim",
 };
 const poppins = Poppins({
     subsets: ['latin'],
