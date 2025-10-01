@@ -1,6 +1,7 @@
 'use client'
 
 import CartIcon from "@/components/cart/CartIcon";
+import SearchBar from "@/components/SearchBar";
 import TopSwiper from "@/components/topSwiper";
 import { Dialog, DialogPanel, DialogTitle, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon, } from '@heroicons/react/24/outline';
@@ -31,7 +32,10 @@ export default function Example() {
 
                 </div>
 
-                {/* Center Logo */}
+                {/* Center Search Bar */}
+                <div className="hidden md:block flex-1 max-w-md mx-8">
+                    <SearchBar placeholder="Kërko produkte..." />
+                </div>
 
                 {/* Right Navigation */}
                 <div className="flex items-center gap-8">
@@ -97,6 +101,18 @@ export default function Example() {
                                                 </div>
 
                                                 <div className="mt-8">
+                                                    {/* Mobile Search */}
+                                                    <div className="mb-6">
+                                                        <SearchBar 
+                                                            placeholder="Kërko produkte..." 
+                                                            showResults={true}
+                                                            onSearch={(query) => {
+                                                                setMobileMenuOpen(false);
+                                                                window.location.href = `/search?q=${encodeURIComponent(query)}`;
+                                                            }}
+                                                        />
+                                                    </div>
+                                                    
                                                     <div className="space-y-6">
                                                         <Link
                                                             onClick={() => setMobileMenuOpen(false)}

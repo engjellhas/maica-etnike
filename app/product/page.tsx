@@ -1,4 +1,5 @@
 import { getProducts } from "@/lib/products";
+import SearchBar from "@/components/SearchBar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,13 +17,18 @@ const Page = async () => {
                     <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed mb-4">
                         Veshje për ata që mbajnë krenarinë shqiptare në zemër dhe nuk harrojnë 1999-në.
                     </p>
-                    <p className="text-lg text-albanianRed font-medium max-w-2xl mx-auto leading-relaxed">
+                    <p className="text-lg text-albanianRed font-medium max-w-2xl mx-auto leading-relaxed mb-8">
                         Koha për t&apos;u treguar kush jemi ka ardhur!
                     </p>
+                    
+                    {/* Search Bar */}
+                    <div className="max-w-sm mx-auto">
+                        <SearchBar placeholder="Kërko në koleksion..." />
+                    </div>
                 </div>
 
                 {/* Products Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
                     {products.map((product, index) => (
                         <div key={index} className="group bg-gray-200 p-6">
                             <Link href={`/product/${product.slug}`}>

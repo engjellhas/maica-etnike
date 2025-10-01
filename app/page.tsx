@@ -12,7 +12,7 @@ export default async function Home() {
         <div className={'flex flex-col '}>
             <HeroV2 />
 
-            <Collection title={'KOLEKSIONI KUNDËR SERBISË'} bigText={true} products={products.slice(0, 6)} />
+            <Collection title={'KOLEKSIONI KUNDËR SERBISË'} bigText={true} products={products.slice(0, 12)} />
             {/* Match Countdown Section */}
             <section className="bg-ultraBlack py-12 md:py-32 border-b-4 border-albanianRed/50">
                 <div className="max-w-4xl mx-auto px-6 text-center">
@@ -129,7 +129,7 @@ export default async function Home() {
                                     className="object-cover transform scale-100 hover:scale-105 transition-transform duration-700 brightness-90 contrast-110"
                                 />
                                 {/* Stronger Overlay for drama and text legibility */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                                {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div> */}
                             </div>
                         </div>
                     </div>
