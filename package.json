@@ -1,0 +1,49 @@
+{
+  "name": "maica-etnike",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export:meta": "npx tsx scripts/export-meta-csv.ts",
+    "sanity:dev": "sanity dev",
+    "sanity:build": "sanity build",
+    "sanity:deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@sanity/client": "^6.22.2",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^4.5.0",
+    "@types/nodemailer": "^6.4.17",
+    "dotenv": "^17.2.1",
+    "framer-motion": "^12.6.5",
+    "groq": "^3.18.1",
+    "next": "15.1.5",
+    "next-cloudinary": "^6.16.0",
+    "next-sanity": "^9.8.9",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-is": "^19.1.1",
+    "sanity": "^3.68.0",
+    "styled-components": "^6.1.19",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
+  }
+}
