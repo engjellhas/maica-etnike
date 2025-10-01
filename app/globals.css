@@ -194,7 +194,6 @@ input::placeholder, textarea::placeholder {
   height: 60px!important;
   border-radius: 10px!important;
   width: 30px!important;
-  border: 2px solid #fbbf24!important;
 }
 
 .swiper-button-next:hover,
