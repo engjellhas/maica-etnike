@@ -28,7 +28,7 @@ export const products: Product[] = [
     id: 'motren-t-shirt',
     name: 'S*ERBI MOTREN Maic',
     slug: 'motren-t-shirt',
-    price: 15.99,
+    price: 15.90,
     comparePrice: 19.99,
     description: 'Bluzë pambuku premium me dizajnin kunder armikut. E përkryer për të shprehur mbështetjen tuaj për ekipin kombëtar. Bërë me materiale me cilësi të lartë për komoditet dhe qëndrueshmëri.',
     images: [
@@ -51,8 +51,8 @@ export const products: Product[] = [
     id: 'motren-hoodie',
     name: 'Duks S*ERBI MOTREN',
     slug: 'motren-hoodie',
-    price: 22.99,
-    comparePrice: 25.99,
+    price: 25.90,
+    comparePrice: 28.99,
     description: 'Duks i trashë me dizajnin kunder armikut. I ngrohtë dhe i rehatshëm për netët në stadium dhe veshje të rastësishme. Materiale të cilësisë premium.',
     images: [
       '/images/Products/q-motren-duks.png',
@@ -73,7 +73,7 @@ export const products: Product[] = [
     id: 'shqiperia-flag-t-shirt',
     name: 'Maic "Shqiptar i Krenar"',
     slug: 'proud-albanian-t-shirt',
-    price: 15.99,
+    price: 15.90,
     comparePrice: 19.99,
     description: 'Maic pambuku premium me dizajnin e flamurit shqiptar. E përkryer për të shprehur mbështetjen tuaj për ekipin kombëtar. Bërë me materiale me cilësi të lartë për komoditet dhe qëndrueshmëri.',
     images: [
@@ -96,8 +96,8 @@ export const products: Product[] = [
     id: 'proud-albanian-hoodie',
     name: 'Duks "Shqiptar i Krenar"',
     slug: 'proud-albanian-hoodie',
-    price: 22.99,
-    comparePrice: 25.99,
+    price: 25.90,
+    comparePrice: 28.99,
     description: 'Duks i trashë me shqiponjën dykrenare ikonike shqiptare. I ngrohtë dhe i rehatshëm për netët në stadium dhe veshje të rastësishme. Materiale të cilësisë premium.',
     images: [
       '/images/Products/proud-duks.png',
@@ -119,7 +119,7 @@ export const products: Product[] = [
     id: 'bac-u-kry-t-shirt',
     name: 'Maic "Bac u Kry"',
     slug: 'bac-u-kry-t-shirt',
-    price: 15.99,
+    price: 15.90,
     comparePrice: 19.99,
     description: 'Maic e stilit zyrtar e ekipit kombëtar shqiptar për vitin 2024. Dizajn autentik me materiale premium. E përkryer për të mbështetur ekipin tuaj me stil.',
     images: [
@@ -143,8 +143,8 @@ export const products: Product[] = [
     id: 'bac-u-kry-hoodie',
     name: 'Duks "Bac u Kry"',
     slug: 'bac-u-kry-hoodie',
-    price: 22.99,
-    comparePrice: 25.99,
+    price: 25.90,
+    comparePrice: 28.99,
     description: 'Duks i stilit zyrtar i ekipit kombëtar shqiptar për vitin 2024. Dizajn autentik me materiale premium. E përkryer për të mbështetur ekipin tuaj me stil.',
     images: [
       '/images/Products/baci-duks-2.png',
@@ -167,7 +167,7 @@ export const products: Product[] = [
     id: 'sa-mire-t-shirt',
     name: 'Maic "O SA MIRE"',
     slug: 'o-sa-mire-t-shirt',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponje Abstrakte" për patriotët e vërtetë.',
     images: [
       '/images/Products/sa-mire-maic.png',
@@ -188,7 +188,7 @@ export const products: Product[] = [
     id: 'sa-mire-hoodie',
     name: 'Duks "O SA MIRE"',
     slug: 'o-sa-mire-hoodie',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponje Abstrakte" për patriotët e vërtetë.',
     images: [
       '/images/Products/sa-mire-duks.png',
@@ -210,7 +210,7 @@ export const products: Product[] = [
     id: 'lorik-cana-t-shirt',
     name: 'Maic Lorik Cana',
     slug: 'lorik-cana-t-shirt',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Lorik Cana" për patriotët e vërtetë.',
     images: [
       '/images/Products/cana-maic.png',
@@ -231,7 +231,7 @@ export const products: Product[] = [
     id: 'lorik-cana-hoodie',
     name: 'Duks Lorik Cana',
     slug: 'lorik-cana-hoodie',
-    price: 22.99,
+    price: 25.90,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/cana-duks.png',
@@ -253,7 +253,7 @@ export const products: Product[] = [
     id: 'skenderbeu-t-shirt',
     name: 'Maic Skënderbeu',
     slug: 'skenderbeu-t-shirt',
-    price: 15.99,
+    price: 15.90,
     comparePrice: 19.99,
     description: 'Maic klasike me Shqiponjën (simboli shqiptar). Dizajn i thjeshtë dhe i fuqishëm për veshje të përditshme. Pambuk i përzier premium.',
     images: [
@@ -276,8 +276,8 @@ export const products: Product[] = [
     id: 'skenderbeu-hoodie',
     name: 'Duks Skënderbeu',
     slug: 'skenderbeu-hoodie',
-    price: 22.99,
-    comparePrice: 25.99,
+    price: 25.90,
+    comparePrice: 28.99,
     description: 'Duks me dizajnin "Dritare e Shqipërisë". I rehatshëm dhe me stil për çdo mbështetës shqiptar.',
     images: [
       '/images/Products/skenderbeu-duks.png',
@@ -299,7 +299,7 @@ export const products: Product[] = [
     id: 'eagle-t-shirt',
     name: 'Maic "Shqiponja"',
     slug: 'eagle-t-shirt',
-    price: 15.99,
+    price: 15.90,
     comparePrice: 19.99,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
@@ -321,8 +321,8 @@ export const products: Product[] = [
     id: 'eagle-hoodie',
     name: 'Duks "Shqiponja"',
     slug: 'eagle-hoodie',
-    price: 22.99,
-    comparePrice: 25.99,
+    price: 25.90,
+    comparePrice: 28.99,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/eagle-duks.png',
@@ -343,7 +343,7 @@ export const products: Product[] = [
     id: 'autochtonus-t-shirt',
     name: 'Maic Autochtonus',
     slug: 'autochtonus-t-shirt',
-    price: 15.99,
+    price: 15.90,
     comparePrice: 19.99,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
@@ -366,8 +366,8 @@ export const products: Product[] = [
     id: 'autochtonus-hoodie',
     name: 'Duks Autochtonus',
     slug: 'autochtonus-hoodie',
-    price: 22.99,
-    comparePrice: 25.99,
+    price: 25.90,
+    comparePrice: 28.99,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/autokton-duks-1.png',
@@ -389,7 +389,7 @@ export const products: Product[] = [
     id: 'autochtonus-t-shirt',
     name: 'Maic Autochtonus me Shqiponjë',
     slug: 'autochtonus-eagle-t-shirt',
-    price: 15.99,
+    price: 15.90,
     comparePrice: 19.99,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
@@ -412,8 +412,8 @@ export const products: Product[] = [
     id: 'autochtonus-eagle-hoodie',
     name: 'Duks Autochtonus me Shqiponjë',
     slug: 'autochtonus-hoodie',
-    price: 22.99,
-    comparePrice: 25.99,
+    price: 25.90,
+    comparePrice: 28.99,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/autokton-duks-eagle-1.png',
@@ -435,7 +435,7 @@ export const products: Product[] = [
     id: 'uck-t-shirt',
     name: 'Maic UÇK',
     slug: 'uck-t-shirt',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "UÇK" për patriotët e vërtetë.',
     images: [
       '/images/Products/uck-maic-1.png',
@@ -457,7 +457,7 @@ export const products: Product[] = [
     id: 'uck-hoodie',
     name: 'Duks UÇK',
     slug: 'uck-hoodie',
-    price: 22.99,
+    price: 25.90,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "UÇK" për patriotët e vërtetë.',
     images: [
       '/images/Products/uck-duks-1.png',
@@ -479,7 +479,7 @@ export const products: Product[] = [
     id: 'step-on-shit-t-shirt',
     name: 'Maic "Step on shit"',
     slug: 'step-on-shit-t-shirt',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Lorik Cana" për patriotët e vërtetë.',
     images: [
       '/images/Products/step-maic.png',
@@ -500,8 +500,8 @@ export const products: Product[] = [
     id: 'step-on-shit-hoodie',
     name: 'Duks "Step on shit"',
     slug: 'step-on-shit-hoodie',
-    comparePrice: 25.99,
-    price: 22.99,
+    comparePrice: 28.99,
+    price: 25.90,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/step-duks.png',
@@ -522,7 +522,7 @@ export const products: Product[] = [
     id: 'shqiponje-abstrakte-t-shirt',
     name: 'Maic "Shqiponje Abstrakte"',
     slug: 'shqiponje-abstrakte-t-shirt',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponje Abstrakte" për patriotët e vërtetë.',
     images: [
       '/images/Products/shqiponje-maic-1.png',
@@ -544,8 +544,8 @@ export const products: Product[] = [
     id: 'shqiponje-abstrakte-hoodie',
     name: 'Duks "Shqiponje Abstrakte"',
     slug: 'shqiponje-abstrakte-hoodie',
-    comparePrice: 25.99,
-    price: 22.99,
+    comparePrice: 28.99,
+    price: 25.90,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/shqiponje-duks-1.png',
@@ -567,7 +567,7 @@ export const products: Product[] = [
     id: 'skenderbeu-lufte-t-shirt',
     name: 'Maic "Skenderbeu Lufte"',
     slug: 'skenderbeu-lufte-t-shirt',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponje Abstrakte" për patriotët e vërtetë.',
     images: [
       '/images/Products/skenderbeu-lufte-maic.png',
@@ -588,8 +588,8 @@ export const products: Product[] = [
     id: 'skenderbeu-lufte-hoodie',
     name: 'Duks "Skenderbeu Lufte"',
     slug: 'skenderbeu-lufte-hoodie',
-    comparePrice: 25.99,
-    price: 22.99,
+    comparePrice: 28.99,
+    price: 25.90,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/skenderbeu-lufte-duks.png',
@@ -610,7 +610,7 @@ export const products: Product[] = [
     id: 'shqiponje-abstrakte-t-shirt',
     name: 'Maic "Adem Jashari"',
     slug: 'adem-jasha-t-shirt',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponje Abstrakte" për patriotët e vërtetë.',
     images: [
       '/images/Products/adem-jashari-maic.png',
@@ -631,8 +631,8 @@ export const products: Product[] = [
     id: 'adem-jashari-hoodie',
     name: 'Duks "Adem Jashari"',
     slug: 'adem-jashari-hoodie',
-    comparePrice: 25.99,
-    price: 22.99,
+    comparePrice: 28.99,
+    price: 25.90,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/adem-jashari-duks.png',
@@ -653,7 +653,7 @@ export const products: Product[] = [
     id: 'skenderbeu-mozaik-t-shirt',
     name: 'Maic "Skenderbeu Mozaik"',
     slug: 'skenderbeu-mozaik-t-shirt',
-    price: 15.99,
+    price: 15.90,
     description: 'Maic e thjeshtë dhe e fuqishme me ngjyrat shqiptare. Dizajn "Shqiponje Abstrakte" për patriotët e vërtetë.',
     images: [
       '/images/Products/skenderbeu-art-maic.png',
@@ -674,8 +674,8 @@ export const products: Product[] = [
     id: 'skenderbeu-mozai-hoodie',
     name: 'Duks "Skenderbeu Mozaik"',
     slug: 'skenderbeu-mozai-hoodie',
-    comparePrice: 25.99,
-    price: 22.99,
+    comparePrice: 28.99,
+    price: 25.90,
     description: 'Duks i thjeshtë dhe i fuqishëm me ngjyrat shqiptare. Dizajn "Shqiponjë" për patriotët e vërtetë.',
     images: [
       '/images/Products/skenderbeu-art-duks.png',
